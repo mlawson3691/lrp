@@ -1,0 +1,124 @@
+/* SITEWIDE SETUP */
+
+@import url('https://fonts.googleapis.com/css?family=Oswald|Proza+Libre');
+
+$lightGreen: #ade88f;
+$darkGray: #464f41;
+$lightGray: #9ba894;
+
+body {
+    color: $darkGray;
+    background: #C2D59C; // Laptop background: #BCE6A1;
+    font-family: 'Proza Libre', sans-serif;
+}
+
+hr {
+    border-color: $darkGray !important;
+}
+
+.well {
+    background: #fff;
+    border-radius: 0;
+    border: 1px solid $darkGray;
+}
+
+/* FORMS */
+
+.form-control {
+    border-radius: 0;
+}
+
+/* LINKS & BUTTONS */
+
+a, a:focus, .btn-link, .btn-link:focus {
+    color: $lightGray;
+    outline: 0 !important;
+
+    h3 {
+        color: $darkGray;
+    }
+    h3:hover {
+        color: $lightGray;
+    }
+}
+
+a:hover, .btn-link:hover {
+    color: $darkGray;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-default {
+    border-radius: 0;
+}
+
+.btn-primary {
+    background: #fff;
+    color: $darkGray;
+    border: 1px solid $darkGray;
+    border-radius: 0;
+    outline: 0 !important;
+}
+
+.btn-primary:hover {
+    color: $lightGray;
+    border-color: $lightGray;
+    background: #fff
+}
+
+.active {
+    background: transparent !important;
+}
+
+/* NAVIGATION */
+
+#navbar {
+    padding-top: 70px;
+    font-size: 1.1em;
+    border-bottom: 1px solid $darkGray;
+    background: #fff;
+    opacity: 0.95;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+
+    img {
+        margin-top: -70px;
+        width: 100px;
+        -webkit-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    .navbar-brand {
+        font-size: 2em;
+        color: $darkGray;
+        font-family: 'Oswald', sans-serif;
+        margin-top: -7.5px;
+    }
+}
+
+.shrinkBar {
+    padding-top: 10px !important;
+}
+
+.shrinkImg {
+    margin-top: -15px !important;
+    width: 47.5px !important;
+}
+
+/* MAIN CONTENT */
+
+.main-container {
+    margin-top: 85px;
+}
+
+/* FOOTER */
+
+#footer {
+    color: white;
+    text-align: center;
+
+    hr {
+        border-color: white;
+        margin-bottom: 15px;
+    }
+}

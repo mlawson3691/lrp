@@ -1,0 +1,109 @@
+/* SITEWIDE SETUP */
+@import url("https://fonts.googleapis.com/css?family=Oswald|Proza+Libre");
+/* line 9, ../scss/mystyles.scss */
+body {
+  color: #464f41;
+  background: #C2D59C;
+  font-family: 'Proza Libre', sans-serif; }
+
+/* line 15, ../scss/mystyles.scss */
+hr {
+  border-color: #464f41 !important; }
+
+/* line 19, ../scss/mystyles.scss */
+.well {
+  background: #fff;
+  border-radius: 0;
+  border: 1px solid #464f41; }
+
+/* FORMS */
+/* line 27, ../scss/mystyles.scss */
+.form-control {
+  border-radius: 0; }
+
+/* LINKS & BUTTONS */
+/* line 33, ../scss/mystyles.scss */
+a, a:focus, .btn-link, .btn-link:focus {
+  color: #9ba894;
+  outline: 0 !important; }
+  /* line 37, ../scss/mystyles.scss */
+  a h3, a:focus h3, .btn-link h3, .btn-link:focus h3 {
+    color: #464f41; }
+  /* line 40, ../scss/mystyles.scss */
+  a h3:hover, a:focus h3:hover, .btn-link h3:hover, .btn-link:focus h3:hover {
+    color: #9ba894; }
+
+/* line 45, ../scss/mystyles.scss */
+a:hover, .btn-link:hover {
+  color: #464f41;
+  text-decoration: none;
+  font-weight: bold; }
+
+/* line 51, ../scss/mystyles.scss */
+.btn-default {
+  border-radius: 0; }
+
+/* line 55, ../scss/mystyles.scss */
+.btn-primary {
+  background: #fff;
+  color: #464f41;
+  border: 1px solid #464f41;
+  border-radius: 0;
+  outline: 0 !important; }
+
+/* line 63, ../scss/mystyles.scss */
+.btn-primary:hover {
+  color: #9ba894;
+  border-color: #9ba894;
+  background: #fff; }
+
+/* line 69, ../scss/mystyles.scss */
+.active {
+  background: transparent !important; }
+
+/* NAVIGATION */
+/* line 75, ../scss/mystyles.scss */
+#navbar {
+  padding-top: 70px;
+  font-size: 1.1em;
+  border-bottom: 1px solid #464f41;
+  background: #fff;
+  opacity: 0.95;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease; }
+  /* line 84, ../scss/mystyles.scss */
+  #navbar img {
+    margin-top: -70px;
+    width: 100px;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+  /* line 91, ../scss/mystyles.scss */
+  #navbar .navbar-brand {
+    font-size: 2em;
+    color: #464f41;
+    font-family: 'Oswald', sans-serif;
+    margin-top: -7.5px; }
+
+/* line 99, ../scss/mystyles.scss */
+.shrinkBar {
+  padding-top: 10px !important; }
+
+/* line 103, ../scss/mystyles.scss */
+.shrinkImg {
+  margin-top: -15px !important;
+  width: 47.5px !important; }
+
+/* MAIN CONTENT */
+/* line 110, ../scss/mystyles.scss */
+.main-container {
+  margin-top: 85px; }
+
+/* FOOTER */
+/* line 116, ../scss/mystyles.scss */
+#footer {
+  color: white;
+  text-align: center; }
+  /* line 120, ../scss/mystyles.scss */
+  #footer hr {
+    border-color: white;
+    margin-bottom: 15px; }
