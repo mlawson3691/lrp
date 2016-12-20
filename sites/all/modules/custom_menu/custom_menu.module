@@ -1,0 +1,10 @@
+<?php
+
+function custom_menu_menu() {
+    $items['user'] = array(
+        'title' => 'Log In',
+        'access callback' => 'user_is_anonymous',
+        'type' => MENU_CALLBACK,
+    );
+    return $items;
+}
