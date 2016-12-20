@@ -115,15 +115,13 @@ a:hover, .btn-link:hover {
   width: 100%;
 }
 
-.product-list-item {
-  width: 25%;
-  text-align: center;
+.store-item article {
+    text-align: center;
 
-  img {
-    width: 90%;
-    margin-left: 5%;
-    border: 1px solid $lightGray;
-  }
+    img {
+        width: 90%;
+        margin-left: 5%;
+    }
 }
 
 /* FOOTER */

@@ -103,30 +103,28 @@ a:hover, .btn-link:hover {
   width: 100%; }
 
 /* line 118, ../scss/mystyles.scss */
-.product-list-item {
-  width: 25%;
+.store-item article {
   text-align: center; }
-  /* line 122, ../scss/mystyles.scss */
-  .product-list-item img {
+  /* line 121, ../scss/mystyles.scss */
+  .store-item article img {
     width: 90%;
-    margin-left: 5%;
-    border: 1px solid #9ba894; }
+    margin-left: 5%; }
 
 /* FOOTER */
-/* line 131, ../scss/mystyles.scss */
+/* line 129, ../scss/mystyles.scss */
 #footer {
   color: white;
   text-align: center; }
-  /* line 135, ../scss/mystyles.scss */
+  /* line 133, ../scss/mystyles.scss */
   #footer hr {
     border-color: white;
     margin-bottom: 15px; }
 
 @media screen and (min-width: 992px) {
-  /* line 142, ../scss/mystyles.scss */
+  /* line 140, ../scss/mystyles.scss */
   #navbar-collapse > nav > ul {
     float: right; } }
 @media screen and (max-width: 991px) {
-  /* line 148, ../scss/mystyles.scss */
+  /* line 146, ../scss/mystyles.scss */
   .container {
     width: 95%; } }
