@@ -111,6 +111,21 @@ a:hover, .btn-link:hover {
     margin-top: 85px;
 }
 
+.views-view-grid {
+  width: 100%;
+}
+
+.product-list-item {
+  width: 25%;
+  text-align: center;
+
+  img {
+    width: 90%;
+    margin-left: 5%;
+    border: 1px solid $lightGray;
+  }
+}
+
 /* FOOTER */
 
 #footer {
@@ -121,4 +136,16 @@ a:hover, .btn-link:hover {
         border-color: white;
         margin-bottom: 15px;
     }
+}
+
+@media screen and (min-width: 992px) {
+  #navbar-collapse > nav > ul {
+      float: right;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .container {
+    width: 95%;
+  }
 }

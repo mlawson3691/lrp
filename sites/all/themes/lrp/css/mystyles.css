@@ -98,12 +98,35 @@ a:hover, .btn-link:hover {
 .main-container {
   margin-top: 85px; }
 
+/* line 114, ../scss/mystyles.scss */
+.views-view-grid {
+  width: 100%; }
+
+/* line 118, ../scss/mystyles.scss */
+.product-list-item {
+  width: 25%;
+  text-align: center; }
+  /* line 122, ../scss/mystyles.scss */
+  .product-list-item img {
+    width: 90%;
+    margin-left: 5%;
+    border: 1px solid #9ba894; }
+
 /* FOOTER */
-/* line 116, ../scss/mystyles.scss */
+/* line 131, ../scss/mystyles.scss */
 #footer {
   color: white;
   text-align: center; }
-  /* line 120, ../scss/mystyles.scss */
+  /* line 135, ../scss/mystyles.scss */
   #footer hr {
     border-color: white;
     margin-bottom: 15px; }
+
+@media screen and (min-width: 992px) {
+  /* line 142, ../scss/mystyles.scss */
+  #navbar-collapse > nav > ul {
+    float: right; } }
+@media screen and (max-width: 991px) {
+  /* line 148, ../scss/mystyles.scss */
+  .container {
+    width: 95%; } }
