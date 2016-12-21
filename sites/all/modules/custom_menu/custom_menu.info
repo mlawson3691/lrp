@@ -2,4 +2,4 @@ name = Custom Menu
 description = Modify the main menu.
 package = Custom Modules
 core = 7.x
-files = custom_menu.module
+files[] = custom_menu.module
