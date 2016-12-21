@@ -116,6 +116,16 @@ a:hover, .btn-link:hover {
   width: 100%;
 }
 
+#about-hero {
+    width: 90%;
+    margin: 10px 5% 20px 5%;
+    border: 1px solid $darkGray;
+}
+
+.page-node-5 .page-header {
+    display: none;
+}
+
 /* STORE DISPLAY */
 
 .store-item article {

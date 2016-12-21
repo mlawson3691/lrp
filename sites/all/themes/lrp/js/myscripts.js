@@ -1,4 +1,6 @@
 jQuery(document).ready(function($) {
+
+    // navigation bar animation
     var navShrunk = false;
     $(window).scroll(function() {
         if ($(document).scrollTop() > 40 && navShrunk === false) {
@@ -9,6 +11,13 @@ jQuery(document).ready(function($) {
             $('#navbar').removeClass('shrinkBar');
             $('#navbar img').removeClass('shrinkImg');
             navShrunk = false;
+        }
+    });
+
+    // redirect to node page when click on store item
+    $('.clickable-store-item').click(function() {
+        if ($(this).attr('id')) {
+            window.location.href = '/node/' + $(this).attr('id');
         }
     });
 });
