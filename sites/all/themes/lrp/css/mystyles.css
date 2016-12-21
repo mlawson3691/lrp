@@ -132,21 +132,58 @@ a:hover, .btn-link:hover {
     margin: -2px 2px 2px -2px; }
 
 /* PRODUCT DISPLAY */
+/* line 156, ../scss/mystyles.scss */
+.page-node .node-product-display img {
+  margin: 10px auto;
+  border: 1px solid #464f41; }
+/* line 161, ../scss/mystyles.scss */
+.page-node .node-product-display .field-commerce-price {
+  margin-left: 30%;
+  width: 20%;
+  display: inline-block; }
+  /* line 166, ../scss/mystyles.scss */
+  .page-node .node-product-display .field-commerce-price .field-items {
+    margin-left: 15%; }
+/* line 171, ../scss/mystyles.scss */
+.page-node .node-product-display .field-type-commerce-product-reference {
+  width: 20%;
+  display: inline-block; }
+  /* line 175, ../scss/mystyles.scss */
+  .page-node .node-product-display .field-type-commerce-product-reference select {
+    width: 100px;
+    text-align: center;
+    border: 1px solid #464f41; }
+  /* line 181, ../scss/mystyles.scss */
+  .page-node .node-product-display .field-type-commerce-product-reference button {
+    border: 1px solid #464f41; }
+/* line 186, ../scss/mystyles.scss */
+.page-node .node-product-display .field-name-body {
+  width: 90%;
+  margin: 20px 5%; }
+/* line 191, ../scss/mystyles.scss */
+.page-node .node-product-display .field-field-tags {
+  width: 90%;
+  margin: 0 5%; }
+/* line 196, ../scss/mystyles.scss */
+.page-node .node-product-display .field-name-field-type {
+  width: 50%;
+  margin-left: 50%; }
+
 /* FOOTER */
-/* line 159, ../scss/mystyles.scss */
+/* line 204, ../scss/mystyles.scss */
 #footer {
   color: white;
   text-align: center; }
-  /* line 163, ../scss/mystyles.scss */
+  /* line 208, ../scss/mystyles.scss */
   #footer hr {
     border-color: white;
     margin-bottom: 15px; }
 
 @media screen and (min-width: 992px) {
-  /* line 170, ../scss/mystyles.scss */
+  /* line 215, ../scss/mystyles.scss */
   #navbar-collapse > nav > ul {
     float: right; } }
 @media screen and (max-width: 991px) {
-  /* line 176, ../scss/mystyles.scss */
+  /* line 221, ../scss/mystyles.scss */
   .container {
     width: 95%; } }

@@ -2,13 +2,13 @@
 
 @import url('https://fonts.googleapis.com/css?family=Oswald|Proza+Libre');
 
-$lightGreen: #ade88f;
+$lightGreen: #C2D59C;
 $darkGray: #464f41;
 $lightGray: #9ba894;
 
 body {
     color: $darkGray;
-    background: #C2D59C; // Laptop background: #BCE6A1;
+    background: #C2D59C;
     font-family: 'Proza Libre', sans-serif;
 }
 
@@ -152,7 +152,52 @@ a:hover, .btn-link:hover {
 
 /* PRODUCT DISPLAY */
 
+.page-node .node-product-display {
+    img {
+        margin: 10px auto;
+        border: 1px solid $darkGray;
+    }
 
+    .field-commerce-price {
+        margin-left: 30%;
+        width: 20%;
+        display: inline-block;
+
+         .field-items {
+            margin-left: 15%;
+        }
+    }
+
+    .field-type-commerce-product-reference {
+        width: 20%;
+        display: inline-block;
+
+        select {
+            width: 100px;
+            text-align: center;
+            border: 1px solid $darkGray;
+        }
+
+        button {
+            border: 1px solid $darkGray;
+        }
+    }
+
+    .field-name-body {
+        width: 90%;
+        margin: 20px 5%;
+    }
+
+    .field-field-tags {
+        width: 90%;
+        margin: 0 5%;
+    }
+
+    .field-name-field-type {
+        width: 50%;
+        margin-left: 50%;
+    }
+}
 
 /* FOOTER */
 
