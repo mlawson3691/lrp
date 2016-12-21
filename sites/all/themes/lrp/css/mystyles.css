@@ -1,49 +1,49 @@
 /* SITEWIDE SETUP */
 @import url("https://fonts.googleapis.com/css?family=Oswald|Proza+Libre");
-/* line 9, ../scss/mystyles.scss */
+/* line 10, ../scss/mystyles.scss */
 body {
   color: #464f41;
   background: #C2D59C;
   font-family: 'Proza Libre', sans-serif; }
 
-/* line 15, ../scss/mystyles.scss */
+/* line 16, ../scss/mystyles.scss */
 hr {
   border-color: #464f41 !important; }
 
-/* line 19, ../scss/mystyles.scss */
+/* line 20, ../scss/mystyles.scss */
 .well {
   background: #fff;
   border-radius: 0;
   border: 1px solid #464f41; }
 
 /* FORMS */
-/* line 27, ../scss/mystyles.scss */
+/* line 28, ../scss/mystyles.scss */
 .form-control {
   border-radius: 0; }
 
 /* LINKS & BUTTONS */
-/* line 33, ../scss/mystyles.scss */
+/* line 34, ../scss/mystyles.scss */
 a, a:focus, .btn-link, .btn-link:focus {
   color: #9ba894;
   outline: 0 !important; }
-  /* line 37, ../scss/mystyles.scss */
+  /* line 38, ../scss/mystyles.scss */
   a h3, a:focus h3, .btn-link h3, .btn-link:focus h3 {
     color: #464f41; }
-  /* line 40, ../scss/mystyles.scss */
+  /* line 41, ../scss/mystyles.scss */
   a h3:hover, a:focus h3:hover, .btn-link h3:hover, .btn-link:focus h3:hover {
     color: #9ba894; }
 
-/* line 45, ../scss/mystyles.scss */
+/* line 46, ../scss/mystyles.scss */
 a:hover, .btn-link:hover {
   color: #464f41;
   text-decoration: none;
   font-weight: bold; }
 
-/* line 51, ../scss/mystyles.scss */
+/* line 52, ../scss/mystyles.scss */
 .btn-default {
   border-radius: 0; }
 
-/* line 55, ../scss/mystyles.scss */
+/* line 56, ../scss/mystyles.scss */
 .btn-primary {
   background: #fff;
   color: #464f41;
@@ -51,18 +51,18 @@ a:hover, .btn-link:hover {
   border-radius: 0;
   outline: 0 !important; }
 
-/* line 63, ../scss/mystyles.scss */
+/* line 64, ../scss/mystyles.scss */
 .btn-primary:hover {
   color: #9ba894;
   border-color: #9ba894;
   background: #fff; }
 
-/* line 69, ../scss/mystyles.scss */
+/* line 70, ../scss/mystyles.scss */
 .active {
   background: transparent !important; }
 
 /* NAVIGATION */
-/* line 75, ../scss/mystyles.scss */
+/* line 76, ../scss/mystyles.scss */
 #navbar {
   padding-top: 70px;
   font-size: 1.1em;
@@ -71,119 +71,143 @@ a:hover, .btn-link:hover {
   opacity: 0.95;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease; }
-  /* line 84, ../scss/mystyles.scss */
+  /* line 85, ../scss/mystyles.scss */
   #navbar img {
     margin-top: -70px;
     width: 100px;
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease; }
-  /* line 91, ../scss/mystyles.scss */
+  /* line 92, ../scss/mystyles.scss */
   #navbar .navbar-brand {
     font-size: 2em;
     color: #464f41;
     font-family: 'Oswald', sans-serif;
     margin-top: -7.5px; }
 
-/* line 99, ../scss/mystyles.scss */
+/* line 100, ../scss/mystyles.scss */
 .shrinkBar {
   padding-top: 10px !important; }
 
-/* line 103, ../scss/mystyles.scss */
+/* line 104, ../scss/mystyles.scss */
 .shrinkImg {
   margin-top: -15px !important;
   width: 47.5px !important; }
 
 /* MAIN CONTENT */
-/* line 110, ../scss/mystyles.scss */
+/* line 111, ../scss/mystyles.scss */
 .main-container {
   margin-top: 85px; }
 
-/* line 114, ../scss/mystyles.scss */
+/* line 115, ../scss/mystyles.scss */
 .views-view-grid {
   width: 100%; }
 
 /* STORE DISPLAY */
-/* line 120, ../scss/mystyles.scss */
+/* line 121, ../scss/mystyles.scss */
 .store-item article {
   margin-bottom: 20px;
   border: 1px solid #464f41;
   border-bottom-right-radius: 4px;
   border-bottom-left-radius: 4px;
   box-shadow: 1px 1px 1px #9ba894; }
-  /* line 127, ../scss/mystyles.scss */
+  /* line 128, ../scss/mystyles.scss */
   .store-item article img {
     width: 100%;
     border-bottom: 1px solid #9ba894; }
-  /* line 132, ../scss/mystyles.scss */
+  /* line 133, ../scss/mystyles.scss */
   .store-item article header, .store-item article .node-readmore, .store-item article .commerce-product-title-label {
     display: none; }
-  /* line 136, ../scss/mystyles.scss */
+  /* line 137, ../scss/mystyles.scss */
   .store-item article .commerce-product-title {
     font-size: 1.25em;
     text-align: left;
     padding: 5px 5px 0 5px; }
-  /* line 142, ../scss/mystyles.scss */
+  /* line 143, ../scss/mystyles.scss */
   .store-item article .field-name-commerce-price > div > div {
     text-align: right;
     padding: 0 5px; }
-  /* line 147, ../scss/mystyles.scss */
+  /* line 148, ../scss/mystyles.scss */
   .store-item article:hover {
     box-shadow: 2px 2px 2px #9ba894;
     margin: -2px 2px 22px -2px; }
 
 /* PRODUCT DISPLAY */
-/* line 156, ../scss/mystyles.scss */
+/* line 157, ../scss/mystyles.scss */
 .page-node .node-product-display img {
   margin: 10px auto;
   border: 1px solid #464f41; }
-/* line 161, ../scss/mystyles.scss */
+/* line 162, ../scss/mystyles.scss */
 .page-node .node-product-display .field-commerce-price {
   margin-left: 30%;
   width: 20%;
   display: inline-block; }
-  /* line 166, ../scss/mystyles.scss */
+  /* line 167, ../scss/mystyles.scss */
   .page-node .node-product-display .field-commerce-price .field-items {
     margin-left: 15%; }
-/* line 171, ../scss/mystyles.scss */
+/* line 172, ../scss/mystyles.scss */
 .page-node .node-product-display .field-type-commerce-product-reference {
   width: 20%;
   display: inline-block; }
-  /* line 175, ../scss/mystyles.scss */
+  /* line 176, ../scss/mystyles.scss */
   .page-node .node-product-display .field-type-commerce-product-reference select {
     width: 100px;
     text-align: center;
     border: 1px solid #464f41; }
-  /* line 181, ../scss/mystyles.scss */
+  /* line 182, ../scss/mystyles.scss */
   .page-node .node-product-display .field-type-commerce-product-reference button {
     border: 1px solid #464f41; }
-/* line 186, ../scss/mystyles.scss */
+/* line 187, ../scss/mystyles.scss */
 .page-node .node-product-display .field-name-body {
   width: 90%;
   margin: 20px 5%; }
-/* line 191, ../scss/mystyles.scss */
+/* line 192, ../scss/mystyles.scss */
 .page-node .node-product-display .field-field-tags {
   width: 90%;
   margin: 0 5%; }
-/* line 196, ../scss/mystyles.scss */
+/* line 197, ../scss/mystyles.scss */
 .page-node .node-product-display .field-name-field-type {
   width: 50%;
   margin-left: 50%; }
 
+/* SIDEBAR */
+/* line 205, ../scss/mystyles.scss */
+.line-item-summary-checkout a {
+  display: none; }
+
+/* line 209, ../scss/mystyles.scss */
+.line-item-summary-view-cart {
+  width: 100%;
+  text-align: center;
+  padding-top: 10px; }
+  /* line 214, ../scss/mystyles.scss */
+  .line-item-summary-view-cart a {
+    font-size: 1.1em;
+    padding: 5px 20px;
+    border: 1px solid #9ba894; }
+    /* line 219, ../scss/mystyles.scss */
+    .line-item-summary-view-cart a:hover {
+      border-color: #464f41; }
+
+/* line 225, ../scss/mystyles.scss */
+#block-views-categories-block h2 {
+  border-bottom: 1px solid #cad1c7;
+  padding-bottom: 5px; }
+
 /* FOOTER */
-/* line 204, ../scss/mystyles.scss */
+/* line 232, ../scss/mystyles.scss */
 #footer {
   color: white;
   text-align: center; }
-  /* line 208, ../scss/mystyles.scss */
+  /* line 236, ../scss/mystyles.scss */
   #footer hr {
     border-color: white;
     margin-bottom: 15px; }
 
 @media screen and (min-width: 992px) {
-  /* line 215, ../scss/mystyles.scss */
+  /* line 243, ../scss/mystyles.scss */
   #navbar-collapse > nav > ul {
     float: right; } }
 @media screen and (max-width: 991px) {
-  /* line 221, ../scss/mystyles.scss */
+  /* line 249, ../scss/mystyles.scss */
   .container {
     width: 95%; } }

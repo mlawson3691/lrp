@@ -5,6 +5,7 @@
 $lightGreen: #C2D59C;
 $darkGray: #464f41;
 $lightGray: #9ba894;
+$lighterGray: #cad1c7;
 
 body {
     color: $darkGray;
@@ -197,6 +198,33 @@ a:hover, .btn-link:hover {
         width: 50%;
         margin-left: 50%;
     }
+}
+
+/* SIDEBAR */
+
+.line-item-summary-checkout a {
+    display: none;
+}
+
+.line-item-summary-view-cart {
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+
+    a {
+        font-size: 1.1em;
+        padding: 5px 20px;
+        border: 1px solid $lightGray;
+
+        &:hover {
+            border-color: $darkGray;
+        }
+    }
+}
+
+#block-views-categories-block h2 {
+    border-bottom: 1px solid $lighterGray;
+    padding-bottom: 5px;
 }
 
 /* FOOTER */
