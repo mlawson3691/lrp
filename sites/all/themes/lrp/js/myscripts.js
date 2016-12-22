@@ -20,4 +20,34 @@ jQuery(document).ready(function($) {
             window.location.href = '/node/' + $(this).attr('id');
         }
     });
+
+    // about page image slider
+    if (window.location.pathname == "/about") {
+        var PICS = 3;
+        var current = 1
+        function changeHero() {
+            current ++;
+            if (current > PICS) {
+                current = 1;
+            }
+            var height = $('#about-hero').height();
+            $('#hero-img-wrapper').css('height', height + 10);
+            $('#about-hero').fadeOut('slow', function(){
+                $(this).attr('src','sites/images/hero-img' + current + '.png').bind('onreadystatechange load', function(){
+                    if (this.complete) $(this).fadeIn('slow');
+                });
+            });
+            if (current === 1) {
+                $('#hero-img-link').attr('href', 'blog');
+                $('#hero-img-link').text('Learn about my methods and materials');
+            } else if (current === 2) {
+                $('#hero-img-link').attr('href', 'contact');
+                $('#hero-img-link').text('Tell me what you think');
+            } else {
+                $('#hero-img-link').attr('href', 'store');
+                $('#hero-img-link').text('Browse products here');
+            }
+        }
+        setInterval(changeHero, 7000);
+    }
 });
