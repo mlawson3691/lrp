@@ -6,7 +6,7 @@
 
 ## Description
 
-This application is an eCommerce site built with Drupal 7. The site represents a personal business idea with entirely original content. The eCommerce platform is the Drupal Commerce module, and site displays are built with the Views module. Administrators can upload products to the site, while other users can browse the store, add items to their cart, and checkout (once logged in). A custom Bootstrap sub-theme styled with SASS formats the page.
+This application is an eCommerce site built with Drupal 7. The site represents a personal business idea to discuss and sell natural homemade soaps and cosmetics. The Drupal Commerce module drives the business of the site, and site displays are built with the Views module. Administrators can upload products to the site, while other users can browse the store, add items to their cart, and checkout (once logged in). A custom Bootstrap sub-theme styled with SASS formats the page.
 
 ## Setup/Installation Instructions
 
