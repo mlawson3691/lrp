@@ -9,7 +9,7 @@ $lighterGray: #cad1c7;
 
 body {
     color: $darkGray;
-    background: #C2D59C;
+    background: $lightGreen;
     font-family: 'Proza Libre', sans-serif;
 }
 
@@ -126,6 +126,20 @@ a:hover, .btn-link:hover {
     display: none;
 }
 
+.pagination {
+    li a {
+        color: $darkGray;
+
+        &:hover {
+            color: $darkGray;
+        }
+    }
+
+    li span {
+        background-color: $lightGreen !important;
+        border-color: $lighterGray !important;
+    }
+}
 /* STORE DISPLAY */
 
 .store-item article {
