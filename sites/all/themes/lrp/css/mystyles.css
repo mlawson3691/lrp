@@ -224,7 +224,7 @@ a:hover, .btn-link:hover {
   border-bottom: 1px solid #cad1c7;
   margin-bottom: 10px; }
 /* line 266, ../scss/mystyles.scss */
-.blog-article .comment-add {
+.blog-article .comment-add, .blog-article .comment_forbidden {
   display: none; }
 /* line 270, ../scss/mystyles.scss */
 .blog-article .node-readmore {
@@ -232,54 +232,57 @@ a:hover, .btn-link:hover {
   font-size: 1.25em; }
 
 /* line 276, ../scss/mystyles.scss */
-.node-article img {
-  width: 90%;
-  margin: 0 5% 20px 5%; }
+.node-article {
+  padding: 0 20px 20px 20px; }
+  /* line 279, ../scss/mystyles.scss */
+  .node-article img {
+    width: 90%;
+    margin: 0 5% 20px 5%; }
 
-/* line 281, ../scss/mystyles.scss */
+/* line 285, ../scss/mystyles.scss */
 .page-user .main-container .well {
   max-width: 700px;
   margin: 0 auto; }
 
 /* SIDEBAR */
-/* line 288, ../scss/mystyles.scss */
+/* line 292, ../scss/mystyles.scss */
 .line-item-summary-checkout a {
   display: none; }
 
-/* line 292, ../scss/mystyles.scss */
+/* line 296, ../scss/mystyles.scss */
 .line-item-summary-view-cart {
   width: 100%;
   text-align: center;
   padding-top: 10px; }
-  /* line 297, ../scss/mystyles.scss */
+  /* line 301, ../scss/mystyles.scss */
   .line-item-summary-view-cart a {
     font-size: 1.1em;
     padding: 5px 20px;
     border: 1px solid #9ba894; }
-    /* line 302, ../scss/mystyles.scss */
+    /* line 306, ../scss/mystyles.scss */
     .line-item-summary-view-cart a:hover {
       border-color: #464f41; }
 
-/* line 308, ../scss/mystyles.scss */
+/* line 312, ../scss/mystyles.scss */
 #block-views-categories-block h2 {
   border-bottom: 1px solid #cad1c7;
   padding-bottom: 5px; }
 
 /* FOOTER */
-/* line 315, ../scss/mystyles.scss */
+/* line 319, ../scss/mystyles.scss */
 #footer {
   color: white;
   text-align: center; }
-  /* line 319, ../scss/mystyles.scss */
+  /* line 323, ../scss/mystyles.scss */
   #footer hr {
     border-color: white;
     margin-bottom: 15px; }
 
 @media screen and (min-width: 992px) {
-  /* line 326, ../scss/mystyles.scss */
+  /* line 330, ../scss/mystyles.scss */
   #navbar-collapse > nav > ul {
     float: right; } }
 @media screen and (max-width: 991px) {
-  /* line 332, ../scss/mystyles.scss */
+  /* line 336, ../scss/mystyles.scss */
   .container {
     width: 95%; } }

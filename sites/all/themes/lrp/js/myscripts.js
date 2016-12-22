@@ -22,7 +22,7 @@ jQuery(document).ready(function($) {
     });
 
     // about page image slider
-    if (window.location.pathname == "/") {
+    if (window.location.pathname == "/" || window.location.pathname == "/about") {
         var PICS = 3;
         var current = 1
         function changeHero() {
