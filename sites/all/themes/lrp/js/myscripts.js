@@ -22,7 +22,7 @@ jQuery(document).ready(function($) {
     });
 
     // about page image slider
-    if (window.location.pathname == "/about") {
+    if (window.location.pathname == "/") {
         var PICS = 3;
         var current = 1
         function changeHero() {
@@ -48,6 +48,6 @@ jQuery(document).ready(function($) {
                 $('#hero-img-link').text('Browse products here');
             }
         }
-        setInterval(changeHero, 7000);
+        setInterval(changeHero, 5000);
     }
 });

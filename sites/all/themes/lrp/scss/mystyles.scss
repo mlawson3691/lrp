@@ -116,6 +116,8 @@ a:hover, .btn-link:hover {
   width: 100%;
 }
 
+/* ABOUT PAGE */
+
 #about-hero {
     width: 80%;
     margin: 10px 10% 0 10% !important;
@@ -129,8 +131,8 @@ a:hover, .btn-link:hover {
 
 #hero-img-link {
     position: relative;
-    bottom: 100px;
-    font-size: 2em;
+    bottom: 120px;
+    font-size: 2.2em;
     color: white;
     text-shadow: 1px 1px 1px $darkGray;
     font-family: 'Oswald', sans-serif;
@@ -142,6 +144,12 @@ a:hover, .btn-link:hover {
 
 .page-node-5 .page-header {
     display: none;
+}
+
+.page-node-5 p {
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 40px;
 }
 
 .pagination {
