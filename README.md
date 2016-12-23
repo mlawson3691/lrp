@@ -8,6 +8,8 @@
 
 This application is an eCommerce site built with Drupal 7. The site represents a personal business idea to discuss and sell natural homemade soaps and cosmetics. The Drupal Commerce module drives the business of the site, and site displays are built with the Views module. Administrators can upload products to the site, while other users can browse the store, add items to their cart, and checkout (once logged in). A custom Bootstrap sub-theme styled with SASS formats the page.
 
+View the live site [here](http://live-leaf-root-petal.pantheonsite.io/).
+
 ## Setup/Installation Instructions
 
 * Clone the repository
