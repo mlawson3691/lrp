@@ -29,7 +29,7 @@ View the live site [here](http://live-leaf-root-petal.pantheonsite.io/).
 
 ## Known Bugs
 
-There are no known bugs at this time.
+* Mobile responsiveness - some pages are not entirely responsive on smaller screens (i.e. About)
 
 ## Support and Contact Details
 
